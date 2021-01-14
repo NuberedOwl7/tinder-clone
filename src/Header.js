@@ -1,7 +1,8 @@
 import React from 'react'
 import './Header.css'
 import PersonIcon from '@material-ui/icons/Person';
-import IconButton from '@material-ui/core/IconButton'
+import IconButton from '@material-ui/core/IconButton';
+import ForumIcon from  '@material-ui/icons/Forum';
 
 function Header() {
     return (
@@ -16,7 +17,10 @@ function Header() {
                 src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
                 alt=""
             />
-                    
+            <IconButton>
+            <ForumIcon fontSize="large" className="forum:icon"/>   
+            </IconButton>
+             
         </div>
     )
 }
