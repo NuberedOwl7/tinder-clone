@@ -1,12 +1,12 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="anpmpp">
-     <h1>Lets build the MERN tinder</h1>
+  
 
-
-     {/*header */}
+     <Header/>
      {/*Tinder Cards */}
      {/*SwippeButtons */}
     </div>
