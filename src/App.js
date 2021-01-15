@@ -1,13 +1,14 @@
 import './App.css';
+import Header from './Header';
+import TinderCards from './TinderCards';
 
 function App() {
   return (
     <div className="anpmpp">
-     <h1>Lets build the MERN tinder</h1>
+  
 
-
-     {/*header */}
-     {/*Tinder Cards */}
+     <Header/>
+     <TinderCards/>
      {/*SwippeButtons */}
     </div>
   );
