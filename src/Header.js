@@ -14,11 +14,11 @@ function Header() {
 
             <img
                 className="header_logo"
-                src="https://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png"
+                src="https://i.pinimg.com/originals/d4/d8/82/d4d882dccd11187b7980ada01a465d48.png"
                 alt=""
             />
             <IconButton>
-                <ForumIcon fontSize="large" className="forum:icon"/>   
+                <ForumIcon fontSize="large" className="headser_icon"/>   
             </IconButton>
              
         </div>
