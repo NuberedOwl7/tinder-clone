@@ -1,0 +1,9 @@
+investigar slint (aplicar a proyecto)
+sdk investigar
+
+password mongo
+RTXMGc9gTQybr8Q
+
+comandos de instalación de babel 
+modificar package jason en start: y poner "nodemon --exec babel-node server.js(nombre del proyecto)"
+ npm install @babel/node @babel/core @babel/preset-env nodemon --save-dev
