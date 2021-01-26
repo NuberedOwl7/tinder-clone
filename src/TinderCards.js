@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import "./TinderCards.css";
 import TinderCard from "react-tinder-card";
-import axios from "./axios.js"
+import axios from "./axios"
 
 function TinderCards() {
     const[people, setPeople] = useState();
@@ -9,7 +9,7 @@ function TinderCards() {
     useEffect(() => {
         async function fetchData(){
             const req = await axios.get('/tinder/cards');
-
+            console.log(req.data);
             setPeople(req.data);
         }
         fetchData();
